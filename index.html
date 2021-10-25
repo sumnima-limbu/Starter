@@ -1,113 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <title>Lasles VPN | Website</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- ************* HEADER / NAVIGATION BAR ********** -->
-    <header class="header">
-      <div class="header-left">
-        <img class="logo" src="images/logo.png" alt="logo" />
-        <span class="logo-text black">Lasles<b>VPN</b></span>
-      </div>
-      
-      <div class="header-middle">
-        <nav class="nav">
-          <ul class="nav__links">
-            <li>
-              <a href="#">testing</a>
-            </li>
-            <li>
-              <a href="#">Features</a>
-            </li>
-            <li>
-              <a href="#">Pricing</a>
-            </li>
-            <li>
-              <a href="#">Testimonials</a>
-            </li>
-            <li>
-              <a href="#">Help</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      
-      <div class="header-right">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+  <title>Lasles VPN | Website</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- ************* HEADER / NAVIGATION BAR ********** -->
+  <header class="header">
+    <div class="header-left">
+      <img class="logo" src="images/logo.png" alt="logo" />
+      <span class="logo-text black">Lasles<b>VPN</b></span>
+    </div>
+  
+    <!-- Desktop menu -->
+    <nav class="nav for-desktop">
+      <ul class="nav__links">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Features</a>
+        </li>
+        <li>
+          <a href="#">Pricing</a>
+        </li>
+        <li>
+          <a href="#">Testimonials</a>
+        </li>
+        <li>
+          <a href="#">Help</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="call-to-action-links for-desktop">
+      <a href="#"><span class="align-right">Sign In</span></a>
+      <a href="#"><button class="select">Sign Up</button></a>
+    </div>
+  
+    <!--- Mobile menu -->
+    <a href="#" class="hamburger not-for-desktop">
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-times"></i>
+    </a>
+
+    <div class="header-right not-for-desktop">
+      <nav class="nav">
+        <ul class="nav__links">
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Testimonials</a>
+          </li>
+          <li>
+            <a href="#">Help</a>
+          </li>
+        </ul>
+      </nav>
+  
+      <div class="call-to-action-links">
         <a href="#"><span class="align-right">Sign In</span></a>
         <a href="#"><button class="select">Sign Up</button></a>
       </div>
-    </header>
-   
-    <!-- ************** CONTENT *************** -->
-    <div class="container">
+    </div>
+  </header>
+
+  <!-- ************** CONTENT *************** -->
+  <div class="container">
     <div class="hero-section">
       <div class="content">
         <h1 class="black">Want anything to be </br> easy with <span><b>LaslesVPN.</b></span></h1>
-        <p>Provide a network for all your needs with ease and fun using LaslesVPN </br>discover interesting features from us.</p>
+        <p>Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features
+          from us.</p>
         <a href="#"><button class="btn">Get Started</button></a>
       </div>
-      
+
       <img src="images/img1.png" class="feature-img" />
     </div>
-    
-    <div class="tab">
-      <div class="even-columns">
-        <div class="col">
+
+    <div class="counter-section">
+      <div class="col">
+        <div class="counter-content">
           <div class="col-left">
             <img class="img-first" src="images/tab/user.png" alt="user icon" />
           </div>
           <div class="col-right">
-            <h2 class="black">90+</h2>
-            <p>Users</p>
+            <h1 class="black">90+</h2>
+              <p>Users</p>
           </div>
         </div>
-
-        <div class="col">
-          <div class="col-left">
-            <img class="img-second" src="images/tab/location.png" alt="location icon" />
-          </div>
-          <div class="col-right">
-            <h2 class="black">30+</h2>
+      </div>
+    
+      <div class="col">
+        <div class="col-left">
+          <img class="img-second" src="images/tab/location.png" alt="location icon" />
+        </div>
+        <div class="col-right">
+          <h1 class="black">30+</h2>
             <p>Locations</p>
-          </div> 
         </div>
-
-        <div class="col col-remove">
-          <div class="col-left">
-            <img class="img-third" src="images/tab/server.png" alt="server icon" />
-          </div>
-         <div class="col-right">
-          <h2 class="black">50+</h2>
-          <p>Servers</p>
-         </div>
+      </div>
+    
+      <div class="col">
+        <div class="col-left">
+          <img class="img-third" src="images/tab/server.png" alt="server icon" />
         </div>
-
+        <div class="col-right">
+          <h1 class="black">50+</h2>
+            <p>Servers</p>
+        </div>
       </div>
     </div>
 
-    <div class="section-1">
-      <div class="section-1-left">
-        <img src="images/img2.png" class="feature-img-2" /> 
-      </div>
+    <div class="feature-display-section">
+      <img src="images/img2.png" class="feature-img" />
 
-      <div class="section-1-right">
+      <div class="content">
         <h2 class="black">We Provide Many </br> Features You Can Use</h2>
-        <p>You can explore the features that we provide with fun and</br> have their own functions each feature.</p>
+        <p>You can explore the features that we provide with fun and </br> have their own functions each feature.</p>
         <ul>
           <li>
-            <div>
+            <div class="image">
               <img src="images/tick2.png">
             </div>
             <div class="text">
               Powerful online protection.
             </div>
-           </li>
+          </li>
           <li>
-            <div>
+            <div class="image">
               <img src="images/tick2.png">
             </div>
             <div class="text">
@@ -115,7 +148,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="image">
               <img src="images/tick2.png">
             </div>
             <div class="text">
@@ -123,224 +156,213 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="image">
               <img src="images/tick2.png">
             </div>
-            <div class="text ">
+            <div class="text">
               No specific time limits.
             </div>
           </li>
-        </ul>         
+        </ul>
       </div>
     </div>
 
-    <div class="section-2">
-      <div class="section-2-top">
+    <div class="pricing-section">
+      <div class="pricing-intro">
         <h2 class="black">Choose your plan</h2>
-        <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>  
+        <p>Let's choose the package that is best for you and explore it happily and </br>cheerfully.</p>
       </div>
-
-      <div class="section-2-bottom">
-          <div class="column first">
-            <div class="col-top">
-              <img src="images/columns/free.png" class="col-img" />
-              <h2 class="black">Free Plan</h2>
-              <ul>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Unlimited Bandwitch
-                  </div>
-                </li>
-                
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Encrypted Connection
-                  </div>
-                </li>
-
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    No Traffic Logs
-                  </div>
-                </li>
-
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Works on All Devices
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="col-bottom">
-              <div class="bottom-one">
-                <h2 class="black">Free</h2>
-              </div>
-              <div class="bottom-two">
-                <a href="#"><button class="select">Select</button></a>
-              </div>
-              
-            </div>
+    
+      <div class="pricing-cards">
+    
+        <div class="card">
+          <div class="card-info">
+            <img src="images/columns/free.png" class="col-img" />
+            <h2 class="black">Free Plan</h2>
+            <ul>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Unlimited Bandwitch
+                </div>
+              </li>
+    
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Encrypted Connection
+                </div>
+              </li>
+    
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  No Traffic Logs
+                </div>
+              </li>
+    
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Works on All Devices
+                </div>
+              </li>
+            </ul>
           </div>
-          <div class="column second">
-            <div class="col-top">
-              <img src="images/columns/standard.png" class="col-img" />
-              <h2 class="black">Standard Plan</h2>
-              <ul>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Unlimited Bandwitch
-                  </div>
-                </li>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Encrypted Connection
-                  </div>
-                </li>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Yes Traffic Logs
-                  </div>
-                </li>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Works on All Devices
-                  </div>
-                </li>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Connect Anyware
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="col-bottom">
-              <div class="bottom-one">
-                <h2><span class="black">$9</span> / mo</h2>
-              </div>
-              <div class="bottom-two">
-                <a href="#"><button class="select">Select</button></a>
-              </div>  
-            </div>
+          <div class="card-action">
+            <h2 class="black">Free</h2>
+            <a href="#"><button>Select</button></a>
           </div>
-
-          <div class="column third">
-            <div class="col-top">
-              <img src="images/columns/premium.png" class="col-img" />
-              <h2 class="black">Premium Plan</h2>
-              <ul>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">Unlimited Bandwitch</div>
-                </li>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Encrypted Connection
-                  </div>
-                </li>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">Yes Traffic Logs</div>
-                </li>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Works on All Devices
-                  </div>
-                </li>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Connect Anyware
-                  </div>
-                </li>
-                <li>
-                  <div class="col-image">
-                    <img src="images/columns/tick.png">
-                  </div>
-                  <div class="plan-info">
-                    Get New Features
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="col-bottom">
-              <div class="bottom-one">
-                <h2><span class="black">$12</span> / mo</h2>
-              </div>
-              <div class="bottom-two">
-                <a href="#"><button class="select">Select</button></a>
-              </div>
-            </div>
+        </div>
+        <div class="card">
+          <div class="card-info">
+            <img src="images/columns/standard.png" class="col-img" />
+            <h2 class="black">Standard Plan</h2>
+            <ul>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Unlimited Bandwitch
+                </div>
+              </li>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Encrypted Connection
+                </div>
+              </li>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Yes Traffic Logs
+                </div>
+              </li>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Works on All Devices
+                </div>
+              </li>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Connect Anyware
+                </div>
+              </li>
+            </ul>
           </div>
-
+          <div class="card-action">
+            <h2><span class="black">$9</span> / mo</h2>
+            <a href="#"><button>Select</button></a>
+          </div>
+        </div>
+    
+        <div class="card">
+          <div class="card-info">
+            <img src="images/columns/premium.png" class="col-img" />
+            <h2 class="black">Premium Plan</h2>
+            <ul>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">Unlimited Bandwitch</div>
+              </li>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Encrypted Connection
+                </div>
+              </li>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">Yes Traffic Logs</div>
+              </li>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Works on All Devices
+                </div>
+              </li>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Connect Anyware
+                </div>
+              </li>
+              <li>
+                <div class="col-image">
+                  <img src="images/columns/tick.png">
+                </div>
+                <div class="plan-info">
+                  Get New Features
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <h2><span class="black">$12</span> / mo</h2>
+            <a href="#"><button>Select</button></a>
+          </div>
+        </div>
+    
       </div>
-   </div>
+    </div>
 
-   <div class="section-3">
-     <div class="section-3-child">
-       <h2 class="black">Huge Global Network of Fast VPN </h2>
-       <p> See <b>LaslesVPN</b> everywhere to make it easier for you when you move locations.</p>
-     </div>
-     <img src="images/worldmap.png" class="feature-img-3" />
+     <div class="network-section">
+      <div class="network-intro">
+        <h2 class="black">Huge Global Network of </br> Fast VPN </h2>
+        <p> See <b>LaslesVPN</b> everywhere to make it easier for you when you move </br>locations.</p>
+      </div>
+      <img src="images/worldmap.png" class="world-map" />
 
-     <div class="section-3-child2">
-       <div class="inside">
-        <a href="#" class="a"><img src="images/inside/netflix.png" alt="netflix" /></a>
-        <a href="#" class="b"><img src="images/inside/reddit.png" alt="reddit" /></a>
-        <a href="#" class="c"><img src="images/inside/amazon.png" alt="amazon" /></a>
-        <a href="#" class="d"><img src="images/inside/discord.png" alt="discord" /></a>
-        <a href="#" class="e"><img src="images/inside/spotify.png" alt="spotify" /></a>
-       </div> 
-     </div>
+    </div>
 
-     <div class="section-4">
-       <div class="section-4-child1">
-         <h2 class="black">Trusted by Thousands of</br> Happy Customer</h2>
-         <p>There are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
-       </div>
-       <div class="section-4-child2">
-         <div class="review">
-           <div class="review-col1">
-             <div class="child">
-              <img src="images/reviews/user1.png" alt="User icon" class="icon"/>
+    <div class="partners-section">
+      <a href="#" class="partner-link"><img src="images/inside/netflix.png" alt="netflix" /></a>
+      <a href="#" class="partner-link"><img src="images/inside/reddit.png" alt="reddit" /></a>
+      <a href="#" class="partner-link"><img src="images/inside/amazon.png" alt="amazon" /></a>
+      <a href="#" class="partner-link"><img src="images/inside/discord.png" alt="discord" /></a>
+      <a href="#" class="partner-link"><img src="images/inside/spotify.png" alt="spotify" /></a>
+    </div>
+
+    <div class="testimonials-section">
+      <div class="testimonials-intro">
+        <h2 class="black">Trusted by Thousands of</br> Happy Customer</h2>
+        <p>There are the stories of our customers who have joined us with great</br> pleasure when using this crazy
+          feature.</p>
+      </div>
+      <div class="testimonials-wrapper">
+        <div class="testimonials">
+          <div class="testimonial">
+            <div class="child">
+              <img src="images/reviews/user1.png" alt="User icon" class="icon" />
               <div class="personal-info">
                 <h3>Viezh Robert</h3>
                 <span>Warsaw, Poland</span>
@@ -349,30 +371,31 @@
                 <p>4.5</p>
                 <img src="images/reviews/rating.png" alt="Rating icon" class="rating" />
               </div>
-             </div>
-             <p>"Wow... I am very happy to use this VPN,it turned out to be more than my expectations and so far there have been
-                no problems. </br>LaslesVPN always the best".
-             </p>
-           </div>
+            </div>
+            <p>"Wow... I am very happy to use this VPN, it <br>turned out to be more than my expectations <br> and so far there
+              have been
+              no problems. </br>LaslesVPN always the best".
+            </p>
+          </div>
 
-           <div class="review-col2">
-             <div class="child">
-              <img src="images/reviews/user2.png" alt="User icon" class="icon"/>
+          <div class="testimonial">
+            <div class="child">
+              <img src="images/reviews/user2.png" alt="User icon" class="icon" />
               <div class="personal-info">
                 <h3>Yessica Christy</h3>
                 <span>Shanxi, China</span>
               </div>
               <div class="rate">
                 <p>4.5</p>
-                <img src="images/reviews/rating.png" alt="Rating icon" class="rating" />             
+                <img src="images/reviews/rating.png" alt="Rating icon" class="rating" />
               </div>
-             </div>
+            </div>
             <p>"I like it because I like to travle far and still can connect with high speed.".</p>
-            <div></div>
+          </div>
 
-          <div class="review-col3">
+          <div class="testimonial">
             <div class="child">
-              <img src="images/reviews/user3.png" alt="User icon" class="icon"/>
+              <img src="images/reviews/user3.png" alt="User icon" class="icon" />
               <div class="personal-info">
                 <h3>Kim Young Jou</h3>
                 <span>Seoul, South Korea</span>
@@ -382,92 +405,90 @@
                 <img src="images/reviews/rating.png" alt="Rating icon" class="rating" />
               </div>
             </div>
-            <p>"This is very unusual for my business that</br> currently requires a virtual private network</br> that has high security.".</p>
+            <p>"This is very unusual for my business that</br> currently requires a virtual private network</br>
+              that has high security.".</p>
           </div>
-         </div>
-        
-         <div class="slide-button">
+        </div>
+
+        <div class="slide-button">
           <div class="dots">
-            <a href="#"><img src="images/union.png"></a>
-          <div class="dots-only">
-            <a href="#"><img src="images/dot.png"></a>
-            <a href="#"><img src="images/dot.png"></a>
-            <a href="#"><img src="images/dot.png"></a>
-         </div>
-         </div>
-
-         <div class="arrows">
-           <div class="left">
-            <a href="#"><img src="images/right-arrow.png"></a>
-           </div>
-           <div class="right">
-            <a href="#"><img src="images/left-arrow.png"></a>
-           </div>
+            <a href="#" class="dot selected"></a>
+            <a href="#" class="dot"></a>
+            <a href="#" class="dot"></a>
+            <a href="#" class="dot"></a>
           </div>
-        </div> 
 
-       </div>
-     </div>
-
-     <div class="subscription">
-       <h2 class="black">Subsribe Now for </br>Get Special Features!</h2>
-       <p>Let's subscribe with us and find the fun.</p>
-       <a href="#"><button class="btn">Subscribe Now</button></a>
-     </div>
-   </div>
-</div> <!--End of Container -->
-   <footer>
-     <div class="footer-child1">
-       <img class="logo" src="images/logo.png" alt="logo" />
-       <span class="logo-text black">Lasles VPN</span>
-       <p>LaslesVPN is a private virtual network that </br>has unique features and has high security.</p>
-      <div class="social">
-        <a href="#"><img class="soc-a" src="images/social/Facebook.png" /></a>
-        <a href="#"><img class="soc-b" src="images/social/Twitter.png" /></a>
-        <a href="#"><img class="soc-c" src="images/social/Instagram.png" /></a>
+          <div class="arrows">
+            <div class="left">
+              <a href="#"><img src="images/right-arrow.png"></a>
+            </div>
+            <div class="right">
+              <a href="#" class="selected"><img src="images/left-arrow.png"></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <span class="copyright">&copy;LaslesVPN</span>   
-     </div>
+    </div>
 
-     <div class="footer-child2">
-       <ul>
-         <li><a href="#" class="title">Product</a></li>
-         <li><a href="#">Download</a></li>
-         <li><a href="#">Pricing</a></li>
-         <li><a href="#">Locations</a></li>
-         <li><a href="#">Server</a></li>
-         <li><a href="#">Countries</a></li>
-         <li><a href="#">Blog</a></li>
-       </ul>
-     </div>
+    <div class="subscription-section">
+      <div class="subscription-info">
+        <h2 class="black">Subsribe Now for </br>Get Special Features!</h2>
+        <p>Let's subscribe with us and find the fun.</p>
+      </div>
+      <a href="#"><button class="btn">Subscribe Now</button></a>
+    </div>
+  </div> <!--End of Container -->
 
-     <div class="footer-child3">
-      <ul>
-        <li><a href="#" class="title">Engage</a></li>
-        <li><a href="#">LaslesVPN?</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Tutorials</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms of Service</a></li>
-      </ul>
-     </div>
 
-     <div class="footer-child4">
-      <ul>
-        <li><a href="#" class="title">Earn Money</a></li>
-        <li><a href="#">Affiliate</a></li>
-        <li><a href="#">Become Partner</a></li>
-      </ul>
-     </div>
+    <footer>
+      <div class="footer-child1">
+        <div class="brand">
+          <img class="logo" src="images/logo.png" alt="logo" />
+          <h2 class="logo-text black">Lasles VPN</h2>
+        </div>
+        <p>LaslesVPN is a private virtual network that </br>has unique features and has high security.</p>
+        <div class="social">
+          <a href="#"><img class="soc-a" src="images/social/Facebook.png" /></a>
+          <a href="#"><img class="soc-b" src="images/social/twitter.png" /></a>
+          <a href="#"><img class="soc-c" src="images/social/Instagram.png" /></a>
+        </div>
+        <span class="copyright">&copy;LaslesVPN</span>
+      </div>
+
+      <div class="footer-child2">
+        <ul>
+          <li><a href="#" class="title">Product</a></li>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Server</a></li>
+          <li><a href="#">Countries</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-child3">
+        <ul>
+          <li><a href="#" class="title">Engage</a></li>
+          <li><a href="#">LaslesVPN?</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Tutorials</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-child4">
+        <ul>
+          <li><a href="#" class="title">Earn Money</a></li>
+          <li><a href="#">Affiliate</a></li>
+          <li><a href="#">Become Partner</a></li>
+        </ul>
+      </div>
     </footer>
-
-
-
-
-
-
-
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 </html>
